@@ -1,2 +1,0 @@
-# GoldenStarGamer.github.io
-website
