@@ -1,5 +1,3 @@
-var moment = require("moment")
+var structuredDate = moment(Date().now).format("LLLL")
 
-var structuredDate = moment(Date()).format("LLLL")
-
-console.log(date)
+const date=document.getElementById("date")
