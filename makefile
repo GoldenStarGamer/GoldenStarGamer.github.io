@@ -1,1 +1,2 @@
-browserify script.js -o bscript.js
+all:
+	browserify script.js -o bscript.js
