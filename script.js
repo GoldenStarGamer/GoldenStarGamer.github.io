@@ -1,5 +1,5 @@
 var moment = require("moment")
 
-console.log(Date())
+console.log(moment(Date()).format("LLLL"))
 
 moment.locale()

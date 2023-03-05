@@ -5688,7 +5688,7 @@
 },{}],2:[function(require,module,exports){
 var moment = require("moment")
 
-console.log(Date())
+console.log(moment(Date()).format("LLLL"))
 
 moment.locale()
 },{"moment":1}]},{},[2]);
