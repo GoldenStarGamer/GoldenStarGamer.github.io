@@ -10,18 +10,49 @@
 		<title>Golden Star's Website</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="">
-		
+
+		<style>
+			body{
+				background-color: dimgrey;
+				justify-content: center;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: medium
+
+			}
+
+			.name{
+				text-align: center;
+				color: gold;
+				position: absolute;
+			}
+
+			.centered{
+				margin: auto;
+				width: 75%;
+			}
+
+			footer{
+				text-align: center;
+			}
+		</style>
+
 	</head>
 	<body>
 		<!--[if lt IE 7]>
 			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
-		Welcome to my website<br>
-		I am funny<br>
-		I make programs and play games<br>
+		<div class="centered" style=>
+			<h1 class="name">Golden Star</h1>
+			<div class="centered" style="background-color: darkgrey;">
+				I make programs and play games.<br><br>
+				Check out: 
+				<a href="https://github.com/GoldenStarGamer/GoldWorks">GoldWorks</a>
+			</div>
+		</div>
 		
-			<a href='https://github.com/GoldenStarGamer'>check this out<a
-		
+		<footer>
+		<button onclick='location.href="https://github.com/GoldenStarGamer"'>GitHub</button>
+		<button onclick='location.href="https://reddit.com/u/Golden_Star_Gamer"'>Reddit</button>
+		</footer>
 	</body>
 </html>
